@@ -1,0 +1,154 @@
+8)	What is Feed forward Neural Network ?
+
+A feedforward neural network (FNN) is a type of artificial neural network (ANN) where the connections between nodes do not form a cycle. This means that information can only flow in one direction, from the input nodes through the hidden nodes to the output nodes. FNNs are the most common type of ANN and are used for a variety of tasks, including classification, regression, and pattern recognition.
+
+9)	How the Feedforward Neural Network Works ?
+
+A feedforward neural network consists of three main components: input nodes, hidden nodes, and output nodes. The input nodes receive the data to be processed, the hidden nodes perform the computations, and the output nodes produce the final result.
+
+The connections between nodes are weighted. These weights represent the strength of the connection between two nodes. The higher the weight, the stronger the connection.
+
+When data is input into the network, it is passed to the input nodes. The input nodes then pass the data to the hidden nodes, where it is processed. The hidden nodes then pass the processed data to the output nodes, where the final result is produced
+
+10)	Enlist atleast three Real time scenarios where Feedforward Neural Network is used.
+
+Feedforward neural networks are used for a variety of real-time tasks, including:
+
+Image Recognition: FNNs are used to recognize objects in images, such as faces, animals, and traffic signs.
+
+Speech Recognition: FNNs are used to convert spoken language into text.
+
+Natural Language Processing (NLP): FNNs are used for tasks such as machine translation, sentiment analysis, and text summarization.
+
+11)	Explain the components of Feedforward Neural Network.
+
+The main components of a feedforward neural network are:
+
+Input Layer: The input layer receives the data to be processed. The number of input nodes is equal to the number of features in the data.
+
+Hidden Layers: The hidden layers perform the computations. The number of hidden layers and the number of nodes in each hidden layer are hyperparameters that can be tuned to improve the performance of the network.
+
+Output Layer: The output layer produces the final result. The number of output nodes is equal to the number of classes or categories in the data.
+
+12)	What is cost function in Feedforward Neural Network.
+
+Cost Function in Feedforward Neural Networks
+
+The cost function is a measure of the difference between the predicted output of the network and the actual output. The goal of training a feedforward neural network is to minimize the cost function.
+
+13)	Define mean square error cost function.
+Mean Square Error (MSE) Cost Function
+
+The mean square error (MSE) cost function is a common choice for feedforward neural networks. The MSE cost function is defined as the average of the squared differences between the predicted output and the actual output.
+
+14)	What is Loss function in Feedforward Neural Network.
+
+In feedforward neural networks, a loss function, also known as a cost function, is a mathematical function that measures the discrepancy between the predicted outputs of the network and the actual or desired outputs. It serves as a crucial component in the training process, guiding the network towards making more accurate predictions.
+
+The loss function is minimized during the training phase by adjusting the network's weights and biases. This optimization process, often referred to as gradient descent, involves iteratively updating the weights in the direction that leads to a decrease in the loss function. By minimizing the loss, we strive to train the network to produce outputs that closely match the desired targets.
+
+15)	What is cross entropy loss.
+
+Cross-Entropy Loss
+The cross-entropy loss is a common choice for classification tasks. The cross-entropy loss function measures the probability that the network will assign the correct class to an input sample.
+
+Cross-entropy loss, also known as log loss, is a loss function commonly used in classification tasks, particularly in deep learning applications. It measures the difference between the predicted probability distribution of a neural network and the actual distribution of the target labels. In simpler terms, it quantifies the penalty for making incorrect predictions.
+
+Intuitive Explanation
+Imagine a task of classifying images of cats and dogs. The neural network outputs a probability for each class, indicating how confident it is that the image belongs to either category. A high probability for the correct class and a low probability for the incorrect class represent a successful prediction, resulting in a low cross-entropy loss.
+
+16)	What is kernel concept related to Feedforrward Neural Network.
+
+In the context of feedforward neural networks (FFNNs), the term "kernel" can have two different meanings:
+
+Weight: In some literature, the term "kernel" is used to refer to the weights associated with the connections between nodes in an FFNN. These weights represent the strength of the connection between two nodes. The higher the weight, the stronger the connection.
+
+Feature transformation: In some cases, the term "kernel" is used to refer to a function that transforms the input data into a higher-dimensional feature space. This transformation allows the FFNN to identify and extract complex patterns and features from the input data, making it easier for the network to classify or predict outcomes.
+
+For example, in image classification tasks, a kernel can be used to transform a 2D image into a 3D space, where the network can identify features such as edges, textures, and shapes more easily.
+
+It is important to note that the term "kernel" is more commonly used in the context of support vector machines (SVMs) and other kernel-based methods than in the context of FFNNs. In FFNNs, the weights are typically referred to simply as "weights" or "coefficients".
+
+Here's a summary of the two meanings of "kernel" in the context of FFNNs:
+
+Meaning	Description
+Weight	The strength of the connection between two nodes in an FFNN.
+Feature transformation	A function that transforms the input data into a higher-dimensional feature space.
+
+17)	Describe MNIST and CIFAR 10 Dataset.
+
+MNIST
+
+The MNIST dataset consists of 60,000 training images and 10,000 testing images of handwritten digits, labeled from 0 to 9. Each image is 28x28 pixels and is represented as a 784-dimensional vector. The MNIST dataset is commonly used for training and evaluating machine learning models for tasks such as handwritten digit recognition and image classification.
+
+CIFAR-10
+
+The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes, with 6,000 images per class. There are 50,000 training images and 10,000 test images. The classes are airplane, automobile, cat, deer, dog, frog, horse, ship, truck, and truck. The CIFAR-10 dataset is more challenging than the MNIST dataset because the images are more complex and there are more classes to distinguish between.
+
+18)	What is Image classification problem?
+
+Image Classification Problem
+
+Image classification is a subfield of machine learning and computer vision that deals with the task of assigning an image to one or more predefined categories. For example, an image classification model could be trained to distinguish between different types of animals, such as cats, dogs, and horses.
+
+Image classification is a challenging task because there is a lot of variability in images, such as changes in lighting, pose, and background. Additionally, images can be composed of a variety of objects, making it difficult to identify and classify all of them.
+
+19)	Why to use Deep learning for Image classification ? State and compare different Type of
+
+Deep learning has been very successful in image classification tasks. This is because deep learning models are able to learn complex patterns from large amounts of data. Additionally, deep learning models are able to leverage the power of GPUs to train on large datasets in a reasonable amount of time.
+
+Different Types of Neural Networks Used for Image Classification
+
+There are a number of different types of neural networks that can be used for image classification. Some of the most popular types include:
+
+Convolutional Neural Networks (CNNs): CNNs are a type of neural network that is specifically designed for image classification tasks. CNNs are able to extract features from images, such as edges, textures, and shapes.
+
+Recurrent Neural Networks (RNNs): RNNs are a type of neural network that is able to process sequential data, such as text. However, RNNs can also be used for image classification tasks. RNNs can be used to process images pixel-by-pixel, taking into account the relationships between pixels.
+
+Autoencoders: Autoencoders are a type of neural network that is able to learn a compressed representation of an image. Autoencoders can be used for image classification tasks by training them to reconstruct images.
+
+20)	Neural Networks used for the Image classification?
+
+
+Neural Networks Used for Image Classification
+
+Neural networks have revolutionized the field of image classification, achieving remarkable accuracy in identifying and categorizing images. Among the various types of neural networks employed for image classification, convolutional neural networks (CNNs) have emerged as the most powerful and effective.
+
+21)	What is CNN?
+
+CNNs: The Backbone of Image Classification
+
+CNNs are specifically designed to process and analyze visual data, making them particularly well-suited for image classification tasks. Their architecture mimics the structure of the human visual cortex, enabling them to extract and interpret complex patterns from images.
+
+22)	Explain Convolution operation and Convolution kernel related to Deep learning.
+
+Convolution Operation: Unveiling Image Features
+
+The core operation in CNNs is convolution, a mathematical process that extracts features from an image. A convolution kernel, a small filter with adjustable weights, is moved across the input image, performing element-wise multiplication with the corresponding pixels. The resulting sum represents the strength of a particular feature at a specific location in the image.
+
+23)	Explain how kernel operate on the Input image by taking sample matrix.
+
+Kernel Operation: Deciphering Feature Maps
+
+As the kernel slides across the image, it generates a feature map, a matrix that captures the presence and strength of a particular feature at each location in the image. The feature map provides a more abstract representation of the image, emphasizing the key features relevant for classification.
+
+24)	Explain the types of convolution and convolution layers related to CNN.
+
+Types of Convolution: Valid and Same
+
+CNNs employ two primary types of convolution: valid and same convolution.
+
+Valid Convolution: In valid convolution, the kernel is applied to the input image without any padding, resulting in a feature map smaller than the input image. This approach reduces the spatial dimensions of the image, allowing the network to focus on the most salient features.
+
+Same Convolution: In same convolution, the input image is padded with zeros before applying the kernel. This method maintains the spatial dimensions of the feature map, preserving the image's spatial information.
+
+Convolution Layers: The Building Blocks of CNNs
+
+Convolution layers are the fundamental building blocks of CNNs, responsible for extracting features from the input image. Each convolution layer applies a convolution operation, generating a corresponding feature map. Subsequent layers may apply additional convolutions, building a hierarchy of increasingly abstract feature representations.
+
+25)	Explain how the feature extraction is done with convolution layers
+
+Feature Extraction through Convolutional Layers
+
+CNNs extract features from images through a series of convolution layers, each refining the representation of the image. The first few layers extract low-level features, such as edges and textures. As the network deepens, the layers extract more complex and abstract features, such as shapes, objects, and patterns.
+
